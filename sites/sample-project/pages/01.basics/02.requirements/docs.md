@@ -13,6 +13,8 @@ O caligine cadunt nuper, institerant candida numerum, nec interius retenta
 circumspectis avis. Orantemque invidit illius de nam lanient pax clarique aquam,
 poenae, alto noceat.
 
+![screenshot](https://rocketwebinc-my.sharepoint.com/personal/jakub_kulig_rocketweb_com/Documents/SwimSuitDirect/creative/02-category/desktop/02-SD_category@1920.jpg?slrid=be43319e-f068-4000-c45c-8cb958c68731)
+
 ## Percussae oculos
 
 Defendentia **flammas mundi salutem** fraudate, non munus revirescere tamen,
