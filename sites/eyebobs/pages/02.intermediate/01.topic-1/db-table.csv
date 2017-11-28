@@ -1,0 +1,15 @@
+Project name,Database backup,Frequency
+Earthing,https://backups.rocketweb.com/dumps/earthing.sql.gz,Nightly
+EveryPet Amazon connector,https://backups.rocketweb.com/dumps/everypet_amazon.sql.gz,Nightly
+Heritage tile,https://backups.rocketweb.com/dumps/heritagetile.sql.gz,Nihtly
+MyEllura,https://backups.rocketweb.com/dumps/myellura.sql.gz,Nightly
+Opry,https://backups.rocketweb.com/dumps/opry.sql.gz,Nightly
+Sunplay,https://backups.rocketweb.com/dumps/sunplay.sql.gz,Nightly
+Squix,https://backups.rocketweb.com/dumps/squix.sql.gz,Nightly
+The Pool Factory,https://backups.rocketweb.com/dumps/thepoolfactory.sql.gz,Nightly
+THK,https://backups.rocketweb.com/dumps/thk.sql.gz,Nightly
+Third Man Store,https://backups.rocketweb.com/dumps/thirdmanstore.sql.gz,Nightly
+ToyZoo,https://backups.rocketweb.com/dumps/toyzoo.sql.gz,Nightly
+Xtension Galaxy,https://backups.rocketweb.com/dumps/xtensiongalaxy.sql.gz,Manual
+Xtension Galaxy CLI,https://backups.rocketweb.com/dumps/xtensiongalaxy_cli.sql.gz,Manual
+Worldpoint,https://backups.rocketweb.com/dumps/worldpoint.sql.gz,Nightly
