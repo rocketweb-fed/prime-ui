@@ -9,6 +9,8 @@ Let's face it: Writing content for the Web is tiresome. WYSIWYG editors help all
 
 **Markdown** is a better way to write **HTML**, without all the complexities and ugliness that usually accompanies it.
 
+![](https://www.flickr.com/photos/sunsward7/11987485463/in/photolist-jghZMR-rhXUoX-iWeS4L-38ff5h-mv2HR4-cMUyjh-V5ToaM-bwhZjJ-bQfC96-p2oY8Y-ezJKFa-bZz7nE-71j6S1-da6vgB-h1WhQv-oYyyaK-cfM4Dj-7VAKiT-mSWkJK-bG2L4a-e8UXdH-phQV9q-dSFhDj-bxAXx6-8hPSsi-hkye28-fD7p2H-7TpBDR-c1zphQ-ajxc7A-fP12q1-GJvgWc-9g5AsM-bKzvsv-e3otH2-27Ud5E-DQWskt-aV7R3t-cE5PmG-fcQqWF-bCnxij-bW2Bzj-9wX27p-6FzXxA-gRBiMc-fHz9qw-Ay4HzQ-dL8zS7-9731XM-mBYa67)
+
 Some of the key benefits are:
 
 1. Markdown is simple to learn, with minimal extra characters so it's also quicker to write content.

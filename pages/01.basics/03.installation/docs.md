@@ -15,6 +15,36 @@ aspicis** ille honorem! Et novissima facinus cursum, futura acutis. Funereum cur
 guttura servati. Aberat [mersa acta](http://www.wedrinkwater.com/) primi, sed
 superum.
 
+[ui-tabs position="top-left" active="0" theme="lite"]
+[ui-tab title="Agros aut"]
+
+Tum limen malo tibi, corporeusque sine *Caphereus dissimiles* tecta demittit
+fletus: duritia prior, amici! Terrae furibunda vini stetit illius temptamina
+virtus sagacior et nunc vidi. Telae morata nulla. Quid femina Iovi bella, *in*
+memorante sublimis.
+
+[/ui-tab]
+[ui-tab title="Dubita qui"]
+
+In tempor sed sapien **eu porttitor**. Aliquam cursus facilisis ante. Etiam neque nunc, blandit vel lacus et, faucibus accumsan lacus. Proin posuere varius purus quis faucibus. [Quisque et enim](#) vitae orci placerat tincidunt id ac eros. Fusce et gravida libero. 
+
+Phasellus cursus odio ex, in mattis lorem tincidunt vel. [Donec nibh odio](#), dapibus non ligula a, semper ornare massa. Nulla consectetur eu nunc sed ultrices. Integer at turpis dolor.
+
+[/ui-tab]
+[/ui-tabs]
+
+[ui-accordion independent=true open=0]
+[ui-accordion-item title="Section 1"]
+Bacon ipsum dolor amet beef burgdoggen shoulder, meatball prosciutto kevin brisket chicken turkey. Kevin rump pancetta short loin capicola brisket landjaeger fatback picanha pork belly ribeye. Strip steak chuck turducken kevin t-bone ribeye cupim capicola alcatra rump. Venison pork chop biltong cupim pig rump meatloaf sausage pork. Strip steak kevin tongue brisket ball tip, venison turducken flank frankfurter corned beef pancetta fatback drumstick ham. Drumstick pastrami leberkas meatball flank tongue turkey ground round pork belly doner frankfurter porchetta jowl.
+[/ui-accordion-item]
+[ui-accordion-item title="Section 2"]
+Short loin swine shankle flank picanha andouille burgdoggen landjaeger hamburger drumstick. Beef ham tail, tri-tip flank ham hock meatball picanha corned beef t-bone shank turkey ball tip shoulder. Flank corned beef chicken, meatloaf venison ball tip ham hock tail salami jowl short ribs pork belly drumstick. Meatball chicken hamburger beef filet mignon doner pork picanha pork chop fatback rump ham tri-tip ball tip landjaeger. Sausage leberkas shoulder tongue short loin shankle. Prosciutto tri-tip frankfurter shoulder drumstick capicola. Pork loin shank strip steak pork belly tongue cow.
+[/ui-accordion-item]
+[ui-accordion-item title="Section 3"]
+Bacon ipsum dolor amet beef burgdoggen shoulder, meatball prosciutto kevin brisket chicken turkey. Kevin rump pancetta short loin capicola brisket landjaeger fatback picanha pork belly ribeye. Strip steak chuck turducken kevin t-bone ribeye cupim capicola alcatra rump. Venison pork chop biltong cupim pig rump meatloaf sausage pork. Strip steak kevin tongue brisket ball tip, venison turducken flank frankfurter corned beef pancetta fatback drumstick ham. Drumstick pastrami leberkas meatball flank tongue turkey ground round pork belly doner frankfurter porchetta jowl.
+[/ui-accordion-item]
+[/ui-accordion]
+
 ## Agros aut
 
 Tum limen malo tibi, corporeusque sine *Caphereus dissimiles* tecta demittit

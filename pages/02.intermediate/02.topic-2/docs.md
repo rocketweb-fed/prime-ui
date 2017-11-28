@@ -4,13 +4,23 @@ taxonomy:
     category: docs
 ---
 
-Lorem *markdownum saxum et* telum revellere in victus vultus cogamque ut quoque
-spectat pestiferaque siquid me molibus, mihi. Terret hinc quem Phoebus? Modo se
-cunctatus sidera. Erat avidas tamen antiquam; ignes igne Pelates
-[morte](http://www.youtube.com/watch?v=MghiBW3r65M) non caecaque canam Ancaeo
-contingat militis concitus, ad!
+```
+@font-face {
+  font-family: Chunkfive; src: url('Chunkfive.otf');
+}
 
-## Et omnis blanda fetum ortum levatus altoque
+body, .usertext {
+  color: #F0F0F0; background: #600;
+  font-family: Chunkfive, sans;
+}
+
+@import url(print.css);
+@media print {
+  a[href^=http]::after {
+    content: attr(href)
+  }
+}
+```
 
 Totos utinamque nutricis. Lycaona cum non sine vocatur tellus campus insignia et
 absumere pennas Cythereiadasque pericula meritumque Martem longius ait moras
@@ -20,6 +30,59 @@ metum aethera occuluit merito mente tenebrosa et videtur ut Amor et una
 sonantia. Fuit quoque victa et, dum ora rapinae nec ipsa avertere lata, profugum
 *hectora candidus*!
 
+```
+<div class="full-width">
+	<div id="lookbook-page" class="lookbook carousel">
+		<div class="item">
+			<a class="image-link" href="">
+				<img src="{{media url=''}}" alt="Slide 1" />
+			</a>
+		</div>
+		<div class="item">
+		<a class="image-link" href="">
+		<img src="{{media url=''}}" alt="Slide 2" />
+	</a>
+</div>
+<div class="item">
+	<a class="image-link" href="">
+		<img src="{{media url=''}}" alt="Slide 3" />
+	</a>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+	require([
+		'jquery',
+		'owl.carousel/owl.carousel.min'
+		], function ($) {
+			$("#lookbook-page").owlCarousel({
+				items: 3,
+				autoplay: true,
+				autoplayTimeout: 5000,
+				autoplayHoverPause: true,
+				dots: false,
+				merge: true,
+				loop: false,
+				navRewind: false,
+				nav: true,
+				navText: ["<em class='porto-icon-chevron-left'></em>","<em class='porto-icon-chevron-right'></em>"],
+				responsiveClass:true,
+				responsive:{
+					0:{
+						items:1,
+					},
+					480:{
+						items:2,
+					},
+					860:{
+						items:3,
+					}
+				}
+			});
+		});
+	</script>
+ ```
+ 
 ## Et hanc
 
 Quo sic duae oculorum indignos pater, vis non veni arma pericli! Ita illos
