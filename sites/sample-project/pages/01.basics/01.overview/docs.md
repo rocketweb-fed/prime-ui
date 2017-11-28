@@ -689,7 +689,7 @@ Content for chapter one.
 
 ## Images
 Images have a similar syntax to links but include a preceding exclamation point.
-
+![Black friday](https://image.ibb.co/hBC9iR/black_friday.png")
 ```markdown
 ![Minion](http://octodex.github.com/images/minion.png)
 ```
