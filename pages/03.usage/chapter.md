@@ -1,5 +1,5 @@
 ---
-title: Usage
+title: Usage Examples
 taxonomy:
     category: docs
 child_type: docs
