@@ -4,6 +4,6 @@ taxonomy:
     category: docs
 ---
 
-### Content Management
+## Content Management
 
 How to manage CMS content on the site

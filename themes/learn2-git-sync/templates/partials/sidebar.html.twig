@@ -9,7 +9,6 @@
         {% set current_page = p.active ? ' active' : '' %}
         <li class="dd-item{{ parent_page }}{{ current_page }}" data-nav-id="{{ p.route }}">
             <a href="{{ p.url }}" {% if p.header.class %}class="{{ p.header.class }}"{% endif %}>
-                <i class="fa fa-check read-icon"></i>
                 <span><b>{% if data_level == 0 %}{{ loop.index }}. {% endif %}</b>{{ p.menu }}</span>
             </a>
             {% if p.children.count > 0 %}
@@ -54,15 +53,12 @@
         {% endif %}
         <hr />
 
-        <a class="padding" href="#" data-clear-history-toggle><i
-                    class="fa fa-fw fa-history"></i> {{ 'THEME_LEARN2_CLEAR_HISTORY'|t }}</a><br/>
-
         <section id="footer">
             {% if config.plugins.feed.enabled and pages.find('/feed') %}
               <a class="button" href="{{ base_url }}/feed.atom"><i class="fa fa-rss-square"></i> Atom 1.0</a>
               <a class="button" href="{{ base_url }}/feed.rss"><i class="fa fa-rss-square"></i> RSS</a><br><br>
             {% endif %}
-            <p>{{ 'THEME_LEARN2_BUILT_WITH_GRAV'|t }}</p>
+            <p>&copy; Rocket Web 2017</p>
         </section>
     </div>
 </div>

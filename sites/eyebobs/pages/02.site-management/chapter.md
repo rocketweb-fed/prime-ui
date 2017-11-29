@@ -5,8 +5,6 @@ taxonomy:
 child_type: docs
 ---
 
-### Chapter 2
+## Site Management
 
-# Site Management
-
-Delve deeper into more **complex** topics
+Different topics related to managing the site

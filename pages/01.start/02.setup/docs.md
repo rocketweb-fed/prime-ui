@@ -1,5 +1,5 @@
 ---
-title: Craftsmanship
+title: Setup
 taxonomy:
     category: docs
 ---

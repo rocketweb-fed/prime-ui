@@ -3,3 +3,30 @@
 Put your custom CSS in this file.
 ===============================================================================================================================
 */
+a {
+	color: #ce3a1e;
+}
+
+a:hover {
+	color: #A3371E;
+}
+
+#header,
+.button {
+	background: #ce3a1e;
+}
+
+.searchbox {
+	background: #A3371E;
+	border-color: #A33728;
+}
+
+.button {
+	background: #A3371E;
+	box-shadow: 0 3px 0 #ce3a1e;
+}
+
+.button:hover {
+	background: #ce3a1e;
+	box-shadow: 0 3px 0 #ce3a1e;
+}

@@ -5,6 +5,6 @@ taxonomy:
 child_type: docs
 ---
 
-## Swimsuits Direct Documentation
+# Swimsuits Direct User Guide
 
-Delve deeper into more **complex** topics
+

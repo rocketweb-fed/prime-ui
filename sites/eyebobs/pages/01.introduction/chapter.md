@@ -5,6 +5,5 @@ taxonomy:
 child_type: docs
 ---
 
-## eyebobs Online Documenatation
+# eyebobs User Guide
 
-Delve deeper into more **complex** topics

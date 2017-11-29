@@ -1,7 +1,5 @@
 ---
-title: Sub-Topic
+title: Editing Docs
 taxonomy:
     category: docs
 ---
-
-# Heading

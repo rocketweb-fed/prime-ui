@@ -5,8 +5,6 @@ taxonomy:
 child_type: docs
 ---
 
-### Chapter 3
+# Usage Examples
 
-# Usage
-
-Delve deeper into more **complex** topics
+This section contains instructions on how to easily create appropriate documentation by giving code examples and showing expected results wherever possible.
