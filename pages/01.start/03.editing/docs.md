@@ -5,19 +5,26 @@ taxonomy:
 ---
 
 There are a couple of ways to edit pages in RWDocs:
-1. via admin using markdown editor (local/prod)
-2. by editing markdown files directly using text editor
-3. through GitHub
+- [via admin using markdown editor](#admin)
+- [by editing markdown files directly on your local using text editor](#files)
+- [through GitHub](#github)
 
-### How to edit pages via admin
+<a id="admin"></a>
+### How to edit pages via admin 
+1. Go to *http://yourlocaladdress.com/project_folder/admin*
+2. Log in using your own credentials
+3. Navigate to **Pages**
+4. Find the page you want to edit
+5. Make your changes
+6. Save
+7. Hit *git* link to sync local with remote
+8. Notify RWDocs moderators of your changes so they can review and update if necessary
+>>>>>> By allowing moderators to review and approve we make sure the documentation is consistent and readable.
 
-### How to edit markdown pages directly
-
-
-### How to edit pages through GitHub
-1. Go to [https://github.com/rocketweb-fed/rwdocs](https://github.com/rocketweb-fed/rwdocs)
-2. Navigate to _sites/project_folder/pages_ and find the page you want to edit
-	[notice=note]
+<a id="files"></a>
+### How to edit markdown pages directly on your local 
+1. Navigate to *root_folder/user/sites/project_folder/pages* and find the page you want to edit
+	[notice]
 	Each page uses the following structure:
 	```
 	02.some-page
@@ -28,8 +35,19 @@ There are a couple of ways to edit pages in RWDocs:
 	where:
 	- the number specifies the order of the page in navigation
 	- folder name represents the page URL
-	- file name declares the template the page is using, .md extension is for *markdown*
+	- file name declares template the page is using, .md extension is for *markdown*
 	- page title is specified via 'title' meta attribute inside the file
 	[/notice]
-3. Open the corresponding markdown file and click on Edit icon
-4. Make your changes and commit
+2. Make your changes
+3. Log in to admin
+4. Hit *git* link to sync local with remote
+5. Notify RWDocs moderators of your changes so they can review and update if necessary
+
+<a id="github"></a>
+### How to edit pages through GitHub 
+1. Go to [https://github.com/rocketweb-fed/rwdocs](https://github.com/rocketweb-fed/rwdocs)
+2. Navigate to *sites/project_folder/pages* and find the page you want to edit
+	>>>>> See note in the previous section on how page files are structured.
+3. Open the corresponding markdown file and click on 'Edit' icon
+4. Make your changes and create a new Pull Request
+5. Notify RWDocs moderators of your changes so they can review and update if necessary
