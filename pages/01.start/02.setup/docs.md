@@ -27,5 +27,6 @@ If want to setup the RWDocs project locally please follow these steps:
 7. Log in to admin by going to _http://yourlocaladdress.com/admin_
 8. Sync your repo with GitHub to make sure everything is working correctly. You can do that by clicking on a **git** link in the sidebar.  
 	![Git link](git_sync.png)
-	You should get a notification message in the top right corner saying  
+	Once synced you should get a notification message in the top right corner saying:  
+	> GitSync has successfully synchronized with the repository.
 9. You're all set!
