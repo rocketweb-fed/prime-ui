@@ -1,1 +1,3 @@
-theme: learn
+enabled: true
+theme: default
+lines: false
