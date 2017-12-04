@@ -1,13 +1,14 @@
 ---
-title: Editing Docs
+title: 'Editing Docs'
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 There are a couple of ways to edit pages in RWDocs:
 - [via admin using markdown editor](#admin)
 - [by editing markdown files directly on your local using text editor](#files)
-- [through GitHub](#github)
+- [through online repository app (GitHub, Beanstalk, Bitbucket)](#github)
 
 <a id="admin"></a>
 ### How to edit pages via admin 
