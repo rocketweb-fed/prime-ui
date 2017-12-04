@@ -1,0 +1,10 @@
+title: 'Rocket Web Docs'
+default_lang: en
+author:
+  name: 'Jakub Kulig'
+  email: fed@rocketweb.com
+taxonomies: [category,tag,author]
+metadata:
+  description: 'Rocket Web Online Documentation'
+summary:
+  size: 300
