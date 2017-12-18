@@ -16,7 +16,7 @@ Each footer column can be edited in a separate static block. Use the table below
 | Customer Service | swim_footer_customer_service |
 | Suit Yourself | swim_footer_links |
 | Get the Perferct Gift | footer-gift-card |
-![](https://wiki.rocketweb.com/download/attachments/28279246/footer_links.png)
+<img src="https://wiki.rocketweb.com/download/attachments/28279246/footer_links.png" class="lightbox" alt="Screenshot" />
 2. Edit content in the appropriate block
 3. Save block
 

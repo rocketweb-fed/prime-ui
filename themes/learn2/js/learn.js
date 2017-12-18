@@ -257,14 +257,19 @@ jQuery(window).on('load', function() {
         if (sessionStorage.getItem(url) == 1) jQuery('[data-nav-id="' + url + '"]').addClass('visited');
     }
 
+    // External lightbox links
+    $('img.lightbox').each(function() {
+        var img = $(this),
+            imgSrc = img.attr('src');
 
-    $(".highlightable").highlight(sessionStorage.getItem('search-value'), { element: 'mark' });
-});
+        img.wrap('<a rel="lightbox" href="' + imgSrc + '"></a>');
+    });
 
-$(function() {
     $('a[rel="lightbox"]').featherlight({
         root: 'section#body'
     });
+
+    $(".highlightable").highlight(sessionStorage.getItem('search-value'), { element: 'mark' });
 });
 
 jQuery.extend({
