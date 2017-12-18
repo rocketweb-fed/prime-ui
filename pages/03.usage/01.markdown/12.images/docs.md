@@ -1,7 +1,8 @@
 ---
 title: Images
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Images have a similar syntax to links but include a preceding exclamation point.
@@ -9,7 +10,7 @@ Images have a similar syntax to links but include a preceding exclamation point.
 ```markdown
 ![Minion](http://octodex.github.com/images/minion.png)
 ```
-![Minion](http://octodex.github.com/images/minion.png)
+![Minion](http://octodex.github.com/images/minion.png?lightbox=1024)
 
 or
 ```markdown
