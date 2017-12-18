@@ -10,7 +10,7 @@ Images have a similar syntax to links but include a preceding exclamation point.
 ```markdown
 ![Minion](http://octodex.github.com/images/minion.png)
 ```
-![Minion](http://octodex.github.com/images/minion.png?lightbox=1024)
+![Minion](http://octodex.github.com/images/minion.png?lightbox=1024&cropResize=200,200)
 
 or
 ```markdown
