@@ -10,6 +10,6 @@ access:
     login: true
 hashed_password: $2y$10$wqf.ksWMshCUOwXPvvFw5OjSD3Z1Cmws4xQNp0n9mCDTNoeH6lZDG
 authorized: true
-twofa_secret: 5LEQ4NWSNXEFAQ7QABHSJEIHSCMRJY2R
+twofa_secret: AIZ2OCHEZRHDXXXV6LW7MRI754RKQIDD
 language: en
 login_attempts: {  }

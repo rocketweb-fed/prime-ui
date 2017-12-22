@@ -1,0 +1,28 @@
+state: enabled
+email: fed@rocketweb.com
+fullname: 'Rocket Web'
+language: en
+twofa_enabled: false
+twofa_secret: AIZ2OCHEZRHDXXXV6LW7MRI754RKQIDD
+access:
+  admin:
+    super: 'true'
+    login: 'true'
+    cache: 'true'
+    configuration: 'true'
+    configuration_system: 'true'
+    configuration_site: 'true'
+    configuration_media: 'true'
+    configuration_info: 'true'
+    settings: 'true'
+    pages: 'true'
+    maintenance: 'true'
+    statistics: 'true'
+    plugins: 'true'
+    themes: 'true'
+    users: 'true'
+  admin-addon-user-manager:
+    users: 'true'
+    groups: 'true'
+    users_expert: 'true'
+hashed_password: $2y$10$oBSxGYns9pl5gG.OQzhSGeht3rP7VV2NXZT2heJKbmP8lqj3ok.t2
