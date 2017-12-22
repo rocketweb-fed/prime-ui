@@ -30,7 +30,7 @@ to edit, rename, duplicate, and delete them.
 [ui-callout-item title="Menu Editor" position="40%, 70%, nw"]
 Title field allows you to edit slider title
 [/ui-callout-item]
-![](slider-config.png)
+![](slider-config.png?lightbox)
 [/ui-callout]
 
 [raw]
