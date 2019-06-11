@@ -4,10 +4,9 @@ taxonomy:
     category: docs
 ---
 
-## Usage
-
 Widget enables slider functionality for displaying banner and product carousels.
 
+### Usage
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -27,7 +26,7 @@ Widget enables slider functionality for displaying banner and product carousels.
 [/ui-tabs]
 
 
-## Options
+### Options
 | Option | Default Value | Purpose |
 | --- | --- | --- |
 | total | 0 | Defines number of slides |

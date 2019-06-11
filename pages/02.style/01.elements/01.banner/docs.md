@@ -1,13 +1,12 @@
 ---
-title: banner
+title: Banner
 taxonomy:
     category: docs
 ---
 
-## Usage
-**banner**
-
 Banner element including styles for image, title, description and button.  
+
+### Usage
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -41,19 +40,19 @@ Banner element including styles for image, title, description and button.
 [/ui-tab]
 [/ui-tabs]
 
-## Classes
+### Classes
 | Class | Purpose |
 | --- | --- |
-| .banner | Defines parent container |
-| .banner__image | Positions banner image |
-| .banner__content | Layout styles for banner content |
-| .banner__title | Text properties of banner title  |
-| .banner__description | Text properties of banner description |
-| .banner__button | Layout styles for banner button |
-| .align-[center/left/right] | Layout helper styles for banner content element |
+| banner | Defines parent container |
+| banner__image | Positions banner image |
+| banner__content | Layout styles for banner content |
+| banner__title | Text properties of banner title  |
+| banner__description | Text properties of banner description |
+| banner__button | Layout styles for banner button |
+| align-[center/left/right] | Layout helper styles for banner content element |
 
 
-## Variables
+### Variables
 | Variable | Default Value |
 | -------- | ------------- |
 | @rw-banner__width | 1800px |

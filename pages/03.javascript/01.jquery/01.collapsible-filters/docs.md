@@ -4,9 +4,9 @@ taxonomy:
     category: docs
 ---
 
-## Usage
-
 Widget enables filter collapse functionality in layered navigation and limits number of visible filter options.
+
+### Usage
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -23,7 +23,7 @@ Widget enables filter collapse functionality in layered navigation and limits nu
 [/ui-tabs]
 
 
-## Options
+### Options
 | Option | Default Value | Purpose |
 | --- | --- | --- |
 | filterCollapse | true | Enables toggleable filters in layered navigation |

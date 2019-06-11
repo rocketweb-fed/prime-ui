@@ -12,8 +12,7 @@ The last carousel you'll ever need. Responsive, scalable, includes lazy loading.
 
 Slick is used as dependancy in rwSlider component and powers all carousels in Prime.
 
-## Usage
-
+### Usage
 To trigger image lazy loading add `lazyload` class to `<img>` element via template.
 [raw]
 ```js

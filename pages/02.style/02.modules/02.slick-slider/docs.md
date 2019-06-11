@@ -1,14 +1,14 @@
 ---
-title: slick slider
+title: Slick Slider
 taxonomy:
     category: docs
 ---
 
-## Usage
-**slick slider**
 
 Slider component that utilizes slick.js to build responsive carousels for banners and products.
 >>> This style component requires [slickSlider](/javascript/jquery/slick-slider) jquery widget in order work properly.
+
+### Usage
 
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
@@ -29,7 +29,7 @@ Slider component that utilizes slick.js to build responsive carousels for banner
 [/ui-tabs]
 
 
-## Variables
+### Variables
 | Variable | Default Value |
 | -------- | ------------- |
 | @rw-slick__icon-font | 'rw-prime' |

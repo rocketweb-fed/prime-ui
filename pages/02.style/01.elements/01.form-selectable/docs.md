@@ -1,13 +1,14 @@
 ---
-title: form selectable
+title: Form selectable
 taxonomy:
     category: docs
 ---
 
-## Usage
+Styles for form elements that require user choice.
+
+### Usage
 **radio**
 
-Styles radio form elements
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -34,7 +35,6 @@ Styles radio form elements
 
 **checkbox**
 
-Styles checkbox form elements
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -61,7 +61,6 @@ Styles checkbox form elements
 
 **dropdown**
 
-Styles select dropdown form elements
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -87,20 +86,20 @@ Styles select dropdown form elements
 [/ui-tab]
 [/ui-tabs]
 
-## Classes
+### Classes
 | Class | Purpose |
 | --- | --- |
 | .choice | Adds styles for radio/checkbox elements, relies on `type` attribute to differeniate between the two |
 | .select | Adds styles for select dropdown |
 
 
-## Variables
+### Variables
 | Variable | Default Value |
 | -------- | ------------- |
 | @rw-form-choice__size | 24px |
 
 
-## Mixins
+### Mixins
 
 | Mixin | Params | Purpose |
 | ----- | ------ | ------- |

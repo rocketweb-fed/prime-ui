@@ -1,13 +1,14 @@
 ---
-title: collapsible
+title: Collapsible
 taxonomy:
     category: docs
 ---
 
-## Usage
-**more toggle**
+Creates a more/less toggle for expandable navigation lists. 
 
-Creates a more/less toggle for expandable navigation lists. Requires [collapsibleFilters](/javascript/jquery/collapsible-filters) component.
+>>> This style componenet requires [collapsibleFilters](/javascript/jquery/collapsible-filters) JS component in order to work.
+
+### Usage
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -26,7 +27,7 @@ Creates a more/less toggle for expandable navigation lists. Requires [collapsibl
 [/ui-tab]
 [/ui-tabs]
 
-## Classes
+### Classes
 | Class | Purpose |
 | --- | --- |
 | .more-toggle | Applies toggle styles |
@@ -34,13 +35,13 @@ Creates a more/less toggle for expandable navigation lists. Requires [collapsibl
 | .less | Toggles `less` link |
 
 
-## Variables
+### Variables
 | Variable | Default Value |
 | -------- | ------------- |
 | @rw-collapsible__indicator | '\2303' |
 
 
-## Mixins
+### Mixins
 | Mixin | Params | Purpose |
 | ----- | ------ | ------- |
 | .rwp-collapsible() |  | Uses `[data-collapsible='true']` child element to add collapsible indicator |

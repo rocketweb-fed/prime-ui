@@ -12,7 +12,7 @@ High performance and SEO friendly lazy loader for images (responsive and normal)
 
 Script is included in footer on every page by default.
 
-## Usage
+### Usage
 
 To trigger image lazy loading add `lazyload` class to `<img>` element via template.
 [raw]

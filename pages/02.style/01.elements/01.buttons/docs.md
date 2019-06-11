@@ -1,16 +1,13 @@
 ---
-title: buttons
+title: Buttons
 taxonomy:
     category: docs
 ---
 
-## Usage
-**button**
-
 Custom styles for buttons.
-
 >>> See [Magento UI library reference page](https://magento-devdocs.github.io/magento2-ui-library/buttons.html) for variables, mixins and default usage
 
+### Usage
 [ui-tabs position="top-left" active="0" theme="lite"]
 [ui-tab title="Code"]
 [raw]
@@ -81,7 +78,7 @@ Custom styles for buttons.
 [/ui-tab]
 [/ui-tabs]
 
-## Classes
+### Classes
 | Class | Purpose |
 | --- | --- |
 | .button / .action | Applies general Magento button styles |
