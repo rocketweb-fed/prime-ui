@@ -1,10 +1,10 @@
-title: 'Rocket Web Docs'
+title: 'Prime UI'
 default_lang: en
 author:
   name: 'Jakub Kulig'
   email: fed@rocketweb.com
 taxonomies: [category,tag,author]
 metadata:
-  description: 'Rocket Web Online Documentation'
+  description: 'Prime UI library documentation'
 summary:
   size: 300

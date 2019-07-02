@@ -1,0 +1,15 @@
+<div id="body-inner">
+    {% if page.children %}
+        <h2>{{ page.title }}</h2>
+        <ul>
+            {% for p in page.children if p != page %}
+                <li>
+                    <a href="{{p.url}}">{{ p.title }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <p>
+    	{{ page.content }}
+    </p>
+</div>

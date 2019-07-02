@@ -1,0 +1,10 @@
+title: 'RW Docs'
+default_lang: en
+author:
+  name: 'Jakub Kulig'
+  email: jakub.kulig@rocketweb.com
+taxonomies: [category,tag,author]
+metadata:
+  description: 'UI library for RW Prime theme'
+summary:
+  size: 300
