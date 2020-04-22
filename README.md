@@ -1,1 +1,2 @@
-# rwdocs
+# Prime UI
+Welcome to the Prime UI documentation site. The purpose of this site is to provide quick reference for UI style and JS components used in [RW Prime theme](https://github.com/rocketweb-fed/magento2-theme-prime).
