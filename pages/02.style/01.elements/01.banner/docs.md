@@ -49,6 +49,7 @@ Banner element including styles for image, title, description and button.
 | banner__title | Text properties of banner title  |
 | banner__description | Text properties of banner description |
 | banner__button | Layout styles for banner button |
+| hero | Used in conjunction with banner class, sets minimum height on elements to @rw-banner__height |
 | align-[center/left/right] | Layout helper styles for banner content element |
 
 
@@ -56,5 +57,5 @@ Banner element including styles for image, title, description and button.
 | Variable | Default Value |
 | -------- | ------------- |
 | @rw-banner__width | 1800px |
-| @rw-banner__height | 600px |
+| @rw-banner__height | 60rem |
 
