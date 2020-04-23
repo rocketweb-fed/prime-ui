@@ -8,7 +8,7 @@ folders:
   - pages
   - sites
   - themes
-repository: 'https://github.com/rocketweb-fed/prime-ui'
+repository: 'https://github.com/rocketweb-fed/prime-ui/'
 user: rocketweb-fed
 webhook: /_git-sync
 branch: master
