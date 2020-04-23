@@ -84,24 +84,28 @@ class EmailPlugin extends Plugin
 
                 if (isset($params['attachments'])) {
                     $filesToAttach = (array)$params['attachments'];
-                    if ($filesToAttach) foreach ($filesToAttach as $fileToAttach) {
-                        $filesValues = $form->value($fileToAttach);
-
-                        if ($filesValues) foreach($filesValues as $fileValues) {
-                            if (isset($fileValues['file'])) {
-                                $filename = $fileValues['file'];
-                            } else {
-                                $filename = ROOT_DIR . $fileValues['path'];
-                            }
-
-                            try {
-                                $message->attach(\Swift_Attachment::fromPath($filename));
-                            } catch (\Exception $e) {
-                                // Log any issues
-                                $grav['log']->error($e->getMessage());
+                    if ($filesToAttach) {
+                        foreach ($filesToAttach as $fileToAttach) {
+                            $filesValues = $form->value($fileToAttach);
+    
+                            if ($filesValues) {
+                                foreach($filesValues as $fileValues) {
+                                    if (isset($fileValues['file'])) {
+                                        $filename = $fileValues['file'];
+                                    } else {
+                                        $filename = ROOT_DIR . $fileValues['path'];
+                                    }
+        
+                                    try {
+                                        $message->attach(\Swift_Attachment::fromPath($filename));
+                                    } catch (\Exception $e) {
+                                        // Log any issues
+                                        $grav['log']->error($e->getMessage());
+                                    }
+                                }
                             }
                         }
-                    }
+                    } 
                 }
 
                 // Send e-mail

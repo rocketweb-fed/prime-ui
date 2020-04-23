@@ -8,7 +8,7 @@ folders:
   - pages
   - sites
   - themes
-repository: 'https://bitbucket.org/rocketweb-fed/rwdocs.git'
+repository: 'https://github.com/rocketweb-fed/prime-ui'
 user: rocketweb-fed
 webhook: /_git-sync
 branch: master
@@ -20,5 +20,14 @@ git:
   name: GitSync
   email: git-sync@trilby.media
   bin: git
+  message: '(Grav GitSync) Automatic Commit'
 logging: false
-password: gitsync-def50200e344d4b74e81867d0346bdc05e27025ebbae5d9ff6595058075d9abe5c4ac53b86bfce5fcd728b3c4a4dd4557fb0e39f5ca2c149bff35564ddc2328678f1bbf94a0186a2e1a093e0a7956ebb6191e2e552ffcffee3ac08470ee5d04603a22b66
+password: gitsync-def50200555192fdddd1ef26793437a6de09fde15a599f57d97bf6312b168b9ab3e94aa12c143ca76d86c99e86407f6b351d6af11ab9154497176f7a7b37f42e01c9dec5a27353e8e5d020956192fefd79af6e4d6a5e89781b58770f677e01c93b131646
+sync:
+  on_save: true
+  on_delete: true
+  on_media: true
+  cron_enable: false
+  cron_at: '0 12,23 * * *'
+webhook_enabled: '0'
+webhook_secret: f14b4599c13e9d7003ce7c23a29808e136367ce42f2a42e5
