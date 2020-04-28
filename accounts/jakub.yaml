@@ -1,0 +1,15 @@
+email: jakub@rocketweb.com
+fullname: 'Jakub Kulig'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$wqf.ksWMshCUOwXPvvFw5OjSD3Z1Cmws4xQNp0n9mCDTNoeH6lZDG
+authorized: true
+twofa_secret: AIZ2OCHEZRHDXXXV6LW7MRI754RKQIDD
+language: en
+login_attempts: {  }

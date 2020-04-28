@@ -1,0 +1,10 @@
+title: 'Prime UI'
+default_lang: en
+author:
+  name: 'Jakub Kulig'
+  email: fed@rocketweb.com
+taxonomies: [category,tag,author]
+metadata:
+  description: 'Prime UI library documentation'
+summary:
+  size: 300
