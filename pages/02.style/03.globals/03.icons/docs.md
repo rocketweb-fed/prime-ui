@@ -1,7 +1,8 @@
 ---
 title: Icons
 taxonomy:
-    category: docs
+    category:
+        - docs
 ---
 
 Icons are implemented via icon font and can be displayed by adding class that includes icon name. 
@@ -29,6 +30,10 @@ Icons are implemented via icon font and can be displayed by adding class that in
 <span class="icon medium rw-icon-angle-left"></span>
 <span class="icon medium rw-icon-angle-right"></span>
 <span class="icon medium rw-icon-angle-up"></span>
+<span class="icon medium rw-icon-calendar"></span>
+<span class="icon medium rw-icon-folder"></span>
+<span class="icon medium rw-icon-tag"></span>
+<span class="icon medium rw-icon-comment"></span>
 ```
 [/raw]
 [/ui-tab]
